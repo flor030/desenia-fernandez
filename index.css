@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 769px) and (max-width: 1068px) {
+    body{
+        background-image: url(../img/fondo\ nuevo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500vh; 
+        font-family: 'Roboto', sans-serif;
+        width: max-content;
+    }
+    .Reseña{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 5rem;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);
+    }
+    h1 {
+        color: darkgreen;
+    }
+    h2 {
+        color: darkgreen;
+        text-align: center;
+    }
+    p{
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .subtitulo h2{
+        background-color:darkslategray;
+        font-size: 26px;
+        font-weight:normal;
+        text-align: center;
+    }
+    .subtitulo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .subtitulo-quienes-somos{
+        padding: 100px;
+    }
+    .subtitulo-img{
+        margin-right: 50px;
+        margin-top: 50px;
+        border: solid 15px;
+        border-color: aliceblue;
+    }
+    .barra{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);
+        display: flex;
+        justify-content: space-around;   
+    }
+    .barra a{
+        text-decoration: none;
+        color: darkseagreen;
+        margin: 10px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top:2%;
+    }
+    .inicio__logo{
+        width:136px;
+        object-fit: cover
+    }
+    .inicio__titulo{
+        margin-bottom: 1%;
+    }
+    .inicio{
+        position: absolute;
+        top:0;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200%;
+    }
+    footer {
+        display: flex;
+        justify-content: end;
+    }
+    .titulo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .titulo h1{
+        margin-right: 20%;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        color: darkseagreen;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    .inicio1{
+        text-align: center;
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    header h1{
+        text-align: center;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding: 20px;
+        position: relative;
+    }
+    .contacto button{
+        margin-top: 10px;
+    }
+    nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .envios{
+        display: flex;
+        flex-direction: column;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    h2 {
+        color: rgb(55, 189, 55);
+    }
+    nav a{
+        color: darkseagreen;
+        text-decoration: none;
+    }
+    .container1{
+        text-align: center;
+    
+    }
+    .orden{
+        order: -1 ;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        width: 95%;
+        grid-column-gap: 100px;
+        grid-row-gap: 10px;
+        align-content: stretch;
+    }
+    .secciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .muebles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 50px;
+    }
+    .imagenes{
+        margin-right: 50px;
+        margin-top: 50px;
+        border-color: aliceblue;
+        width:300px;
+        object-fit: cover
+    }
+    h3, h4, h5, h6{
+        color: darkgreen;
+        font-size: 20px;
+        margin: 25px 0;
+    }
+    .grid .muebles{
+        border: solid 1px;
+        font-size: 21px;
+        padding: 5px;
+        background-color: rgb(49, 47, 47);
+        align-self: center;
+    }
+
+}
+@media (max-width: 768px) {
+    body{
+        background-image: url(../img/fondo\ nuevo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500vh; 
+        font-family: 'Roboto', sans-serif;
+        width: max-content;
+    }
+    .Reseña{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 5rem;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);
+    }
+    h1 {
+        color: darkgreen;
+    }
+    h2 {
+        color: darkgreen;
+        text-align: center;
+    }
+    p{
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .subtitulo h2{
+        background-color:darkslategray;
+        font-size: 26px;
+        font-weight:normal;
+        text-align: center;
+    }
+    .subtitulo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .subtitulo-quienes-somos{
+        padding: 100px;
+    }
+    .subtitulo-img{
+        margin-right: 50px;
+        margin-top: 50px;
+        border: solid 15px;
+        border-color: aliceblue;
+    }
+    .barra{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);
+        display: flex;
+        justify-content: space-around;   
+    }
+    .barra a{
+        text-decoration: none;
+        color: darkseagreen;
+        margin: 10px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top:2%;
+    }
+    .inicio__logo{
+        width:136px;
+        object-fit: cover
+    }
+    .inicio__titulo{
+        margin-bottom: 1%;
+    }
+    .inicio{
+        position: absolute;
+        top:0;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200%;
+    }
+    footer {
+        display: flex;
+        justify-content: end;
+    }
+    .titulo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .titulo h1{
+        margin-right: 20%;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        color: darkseagreen;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    .inicio1{
+        text-align: center;
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    header h1{
+        text-align: center;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding: 20px;
+        position: relative;
+    }
+    .contacto button{
+        margin-top: 10px;
+    }
+    nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .envios{
+        display: flex;
+        flex-direction: column;
+        color: darkseagreen;
+        background-color: rgb(238, 236, 236);;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    h2 {
+        color: rgb(55, 189, 55);
+    }
+    nav a{
+        color: darkseagreen;
+        text-decoration: none;
+    }
+    .container1{
+        text-align: center;
+    
+    }
+    .orden{
+        order: -1 ;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        width: 95%;
+        grid-column-gap: 100px;
+        grid-row-gap: 10px;
+        align-content: stretch;
+    }
+    .secciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .muebles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 50px;
+    }
+    .imagenes{
+        margin-right: 50px;
+        margin-top: 50px;
+        border-color: aliceblue;
+        width:300px;
+        object-fit: cover
+    }
+    h3, h4, h5, h6{
+        color: darkgreen;
+        font-size: 20px;
+        margin: 25px 0;
+    }
+    .grid .muebles{
+        border: solid 1px;
+        font-size: 21px;
+        padding: 5px;
+        background-color: rgb(49, 47, 47);
+        align-self: center;  
+}
+h1 {
+    color: darkgreen;
+}
+h2 {
+    color: darkgreen;
+}
+.Reseña{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: darkseagreen;
+    background-color: rgb(238, 236, 236);
+}
+p{
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+body{
+    background-image: url(../img/fondo\ nuevo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300vh; 
+    font-family: 'Roboto', sans-serif;
+}
+.subtitulo h2{
+    background-color:darkslategray;
+    font-size: 26px;
+    font-weight:normal;
+    text-align: center;
+}
+.subtitulo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subtitulo-quienes-somos{
+    padding: 100px;
+}
+.subtitulo-img{
+    margin-right: 50px;
+    margin-top: 50px;
+    border: solid 15px;
+    border-color: aliceblue;
+}
+.barra{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: darkseagreen;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-around;   
+}
+.barra a{
+    text-decoration: none;
+    color: darkseagreen;
+    margin: 10px;
+}
+.main{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:2%;
+}
+.inicio__logo{
+    width:136px;
+    object-fit: cover
+}
+.inicio__titulo{
+    margin-bottom: 1%;
+}
+.inicio{
+    position: absolute;
+    top:0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200%;
+}
+footer {
+    display: flex;
+    justify-content: end;
+}
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.titulo h1{
+    margin-right: 20%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.inicio1{
+    text-align: center;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+header h1{
+    text-align: center;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    color: darkseagreen;
+    background-color: rgb(238, 236, 236);;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+.contacto button{
+    margin-top: 10px;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+}
+.envios{
+    display: flex;
+    flex-direction: column;
+    color: darkseagreen;
+    background-color: rgb(238, 236, 236);;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+h2 {
+    color: rgb(55, 189, 55);
+}
+nav a{
+    color: darkseagreen;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+
+}
+.orden{
+    order: -1 ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 100%;
+    grid-column-gap: 100em;
+    grid-row-gap: 10em;
+    align-content: stretch;
+}
+.secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.muebles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    transition: transform 2s;
+    transition: rotate(180deg);
+    transition: translate(250px,200px) scale(1);
+}
+.muebles:hover{
+    height: 400px;
+    width: 400px;
+    transition: scale(3);
+    transition: transform 5s;
+}
+.imagenes{
+    margin-right: 50px;
+    margin-top: 50px;
+    border-color: aliceblue;
+    width:300px;
+    object-fit: cover
+}
+h3, h4, h5, h6{
+    color: darkgreen;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.grid .muebles{
+    border: solid 1px;
+    font-size: 21px;
+    padding: 5px;
+    background-color: rgb(49, 47, 47);
+    align-self: center;
+}
